@@ -19,7 +19,7 @@
   
   <modules>
     <module>utilities</module>
-    <module>day1</module>
+      <module>day01</module>
   </modules>
 
   <dependencyManagement>

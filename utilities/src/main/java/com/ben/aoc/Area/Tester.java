@@ -1,4 +1,4 @@
-package come.ben.aoc.Area;
+package com.ben.aoc.Area;
 
 import com.ben.aoc.IntPoint;
 import com.ben.aoc.Util;

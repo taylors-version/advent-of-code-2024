@@ -1,4 +1,4 @@
-package come.ben.aoc.Area;
+package com.ben.aoc.Area;
 
 import java.util.HashSet;
 import java.util.LinkedList;
