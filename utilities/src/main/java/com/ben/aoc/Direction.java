@@ -19,22 +19,26 @@ public class Direction {
 	
 	public Direction(char d) {
 		switch (d) {
-		case 'u':
-		case 'U':
-			direction = Dir.UP;
-			break;
-		case 'r':
-		case 'R':
-			direction = Dir.RIGHT;
-			break;
-		case 'd':
-		case 'D':
-			direction = Dir.DOWN;
-			break;
-		case 'l':
-		case 'L':
-			direction = Dir.LEFT;
-			break;
+            case '^':
+            case 'u':
+            case 'U':
+                direction = Dir.UP;
+                break;
+            case '>':
+            case 'r':
+            case 'R':
+                direction = Dir.RIGHT;
+                break;
+            case 'v':
+            case 'd':
+            case 'D':
+                direction = Dir.DOWN;
+                break;
+            case '<':
+            case 'l':
+            case 'L':
+                direction = Dir.LEFT;
+                break;
 		}
 	}
 	
