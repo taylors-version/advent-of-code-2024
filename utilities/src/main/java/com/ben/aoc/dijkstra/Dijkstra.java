@@ -82,7 +82,7 @@ public class Dijkstra {
 		}
 	}
 	
-	private static State getLowestState(Set<State> unsettledStates) {
+	protected static State getLowestState(Set<State> unsettledStates) {
 		State minimumState = null;
 		int lowestDistance = Integer.MAX_VALUE;
 		for(State s : unsettledStates) {
@@ -95,7 +95,7 @@ public class Dijkstra {
 		return minimumState;
 	}
 	
-	private static void CalculateMinimumDistance(State evaluationState, int edgeWeight, State sourceState) {
+	protected static void CalculateMinimumDistance(State evaluationState, int edgeWeight, State sourceState) {
 		int sourceDistance = sourceState.getDistance();
 		if(sourceDistance + edgeWeight < evaluationState.getDistance()) {
 			evaluationState.setDistance(sourceDistance + edgeWeight);
