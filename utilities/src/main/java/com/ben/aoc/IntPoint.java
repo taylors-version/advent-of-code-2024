@@ -46,6 +46,8 @@ public class IntPoint extends Point<Integer> {
 		return neighbours;
 	}
 	
-
+    public Integer manhattanDistance(IntPoint p){
+        return Math.abs(getX() - p.getX()) + Math.abs(getY() - p.getY());
+    }
 
 }
